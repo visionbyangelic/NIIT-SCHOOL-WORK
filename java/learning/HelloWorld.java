@@ -23,3 +23,4 @@ public class HelloWorld{
 		System.out.printf("Is Java Fun? %b%n",isFun);
 		System.out.print("Do you enjoy learning \"Java\"");
 	}
+}

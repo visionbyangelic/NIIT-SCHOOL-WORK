@@ -1,5 +1,5 @@
 public class OperatorsPart1{
-	public static void main(String[] args){
+		public static void main(String[] args){
 		int num = 50;
 		
 		num += 8;
@@ -27,7 +27,6 @@ public class OperatorsPart1{
 		int minus = num1 -num2;
 		double divide = (double)num1/num2;
 		int modulos = num1%num2;
-	
 		
 		System.out.printf("Sum is %d%n",sum);
 		System.out.printf("product is %d%n",product);
@@ -45,8 +44,6 @@ public class OperatorsPart1{
 		boolean isLessThanOrEqualTo = firstNum <= secondNum;
 		boolean isNotEqualTo = firstNum != secondNum;
 		boolean isEqual = firstNum == secondNum;
-		
-		
 		
 		System.out.printf("firstNum > secondNum? %b%n",isGreater);
 		System.out.printf("firstNum < secondNum? %b%n",isLesser);
