@@ -1,7 +1,4 @@
 
-````markdown
----
-
 ## Chapter 2
  
 ### Self-Review Exercises
