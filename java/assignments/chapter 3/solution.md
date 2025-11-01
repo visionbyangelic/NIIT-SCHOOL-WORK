@@ -1,7 +1,3 @@
-
-````markdown
----
-
 ## Chapter 3
  
 ### Exercise 1
@@ -663,7 +659,4 @@ public class WorldPopulationGrowth {
         input.close();
     }
 }
-```
-
-```
 ```
