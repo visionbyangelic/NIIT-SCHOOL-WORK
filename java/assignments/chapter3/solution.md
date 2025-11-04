@@ -56,15 +56,16 @@ Both `++x` (preincrement) and `x++` (postincrement) add 1 to the variable `x`. T
  
 a)
 ```java
-if (age >= 65);
-    System.out.println("Age is greater than or equal to 65");
-else
-    System.out.println("Age is less than 65)");
+a) if (age >= 65); 
+System.out.println("Age is greater than or equal to 65"); 
+else System.out.println("Age is less than 65)"; 
+
 ````
 
   * **Error 1 (Compiler Error):** The `else` statement is not associated with an `if`.
   * **Error 2 (Logical Error):** The semicolon (`;`) after `if (age >= 65)` makes the `if` statement's body *empty*. The `System.out.println` is a separate statement, not part of the `if`.
   * **Error 3 (Typo):** The closing parenthesis in the `else` block's string should be a quote.
+  
   * **Correction:**
     ```java
     if (age >= 65) {
