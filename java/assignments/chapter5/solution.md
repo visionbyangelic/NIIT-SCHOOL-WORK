@@ -1178,6 +1178,5 @@ public class ComputerAssistedInstruction {
             case 2: System.out.println("Don't give up!"); break;
             case 3: System.out.println("No. Keep trying."); break;
         }
-    }
 }
 ```
