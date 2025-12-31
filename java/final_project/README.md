@@ -1,40 +1,108 @@
-## NIIT Port Harcourt Library Management System
-A robust, console-based Java application designed to manage book inventories and student borrowing records for the Software Development department at NIIT Port Harcourt.
+## NIIT Java Library Management System
 
-### 📌 Project Overview
-This project focuses on Object-Oriented Programming (OOP) principles. It manages the relationship between books and students using logic-driven code rather than a graphical interface. It is designed to be efficient, crash-resistant, and easy to navigate via the terminal.
-
-### 🚀 Key Features
-
-- Dynamic Inventory: Tracks Java, Python, and Software Engineering books with real-time availability updates.Student Management: Pre-configured profile for Angelic Charles (Class: Software Development).
-
-- Borrow/Return Logic: A secure system that checks book status and student records before processing transactions.Search Engine: Keyword-based search to find books quickly by title.
-
-- Data Validation: Prevents invalid inputs (like entering text into a number field) from crashing the system.
-
-### 🛠️ Technical Implementation
-
-- Encapsulation: Private data fields with public getters/setters in the Book and Member classes.
-
-- Collections: Utilizes ArrayList for flexible data management.
-
-- Formatting: Uses System.out.printf for a clean, table-like UI in the console.
+A robust, console-based Java application built to manage book inventories and student borrowing records for the **Software Development Department at NIIT Port Harcourt**.
 
 ---
 
-📖 Getting Started
+## 📌 Project Overview
 
-### Prerequisites 
-Java Development Kit (JDK) 8 or higher installed on your machine.
+This project emphasizes **Object-Oriented Programming (OOP)** principles through a logic-driven, terminal-based system.  
+Instead of a graphical interface, it focuses on clean structure, reliability, and efficient interaction via the console.
+
+**Core Goals:**
+- Maintain accurate book inventories
+- Track student borrowing activity
+- Ensure stability through input validation
+- Provide a simple, intuitive terminal experience
+
+---
+
+## 🚀 Key Features
+
+### 📚 Inventory Management
+- Dynamically tracks books across categories:
+  - Java
+  - Python
+  - Software Engineering
+- Updates availability in real time
+
+### 👤 Student Management
+- Pre-configured student profile:
+  - **Name:** Angelic Charles  
+  - **Class:** Software Development
+
+### 🔄 Borrow & Return System
+- Verifies book availability before borrowing
+- Confirms student records before transactions
+- Prevents invalid operations
+
+### 🔍 Search Functionality
+- Keyword-based search
+- Quickly locate books by title
+
+### ✅ Data Validation
+- Guards against invalid inputs
+- Prevents crashes from incorrect data types (e.g., text instead of numbers)
+
+---
+
+## 🛠️ Technical Implementation
+
+- **Encapsulation**
+  - Private fields with public getters and setters in `Book` and `Member` classes
+
+- **Collections**
+  - Uses `ArrayList` for flexible and dynamic data handling
+
+- **Console Formatting**
+  - Utilizes `System.out.printf` for clean, table-like output
+
+---
+
+## 📖 Getting Started
+
+### Prerequisites
+- Java Development Kit (**JDK 8 or higher**)
 
 ### Run the Application
-Compile the code:javac LibrarySystem.java
-Launch the system:java LibrarySystem
-Navigation GuideStudent ID: Use NIIT-PH-2024-01 to test the borrowing features for Angelic Charles.
-ISBNs: Check the inventory list (Option 1) to find IDs like ISBN-001 or ISBN-002.
+
+1. Compile the program:
+   ```bash
+   javac LibrarySystem.java
+   ```
+
+2. Launch the application:
+```
+java LibrarySystem
+```
+
+
+
+🧭 Navigation Guide
+
+Student ID:
+Use NIIT-PH-2024-01 to test borrowing features for Angelic Charles
+
+Book ISBNs:
+View the inventory list (Option 1) to find IDs such as:
+```
+ISBN-001
+```
+```
+ISBN-002
+```
+---
 
 📂 Project Structure
-Book.java: Data model for library assets.
-Member.java: Data model for students and their borrowing history.
-LibrarySystem.java: The main engine containing the logic, menu, and student database.
-Course: Software DevelopmentInstitution: NIIT Port Harcourt
+
+
+Book.java
+Data model representing library books and availability
+
+
+Member.java
+Data model for students and their borrowing history
+
+
+
+
